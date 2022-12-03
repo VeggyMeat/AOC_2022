@@ -18,7 +18,6 @@ for x in range(0, int(len(lines) / 3)):
     backpack2 = lines[3 * x + 1]
     backpack3 = lines[3 * x + 2]
     for item in backpack1:
-        print(item)
         if item in backpack2:
             if item in backpack3:
                 count += dict[item]
