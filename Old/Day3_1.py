@@ -20,4 +20,5 @@ for line in lines:
         if item in backpack2:
             count += dict[item]
             break
+
 print(count)
