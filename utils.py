@@ -18,3 +18,11 @@ def listUnique(l):
             if item1 == l[y]:
                 return False
     return True
+
+
+def stringUnique(s):
+    for x, item1 in enumerate(s):
+        for y in range(x + 1, len(s)):
+            if item1 == s[y]:
+                return False
+    return True
