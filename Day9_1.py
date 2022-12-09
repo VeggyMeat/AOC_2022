@@ -10,7 +10,7 @@ translation = {(2, 2): (1, 1), (2, 1): (1, 1), (2, 0): (1, 0), (2, -1): (1, -1),
 
 chain = [(0, 0), (0, 0)]
 
-past_pos = []
+past_pos = [(0, 0)]
 
 for line in lines:
     spaces = line.split(' ')
