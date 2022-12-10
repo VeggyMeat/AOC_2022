@@ -1,6 +1,6 @@
 import utils
 
-file = open("Day10.txt", 'r')
+file = open("Day11.txt", 'r')
 data = file.read()
 file.close()
 
