@@ -38,4 +38,3 @@ for x in range(10000):
 
 inspects.sort()
 print(inspects[-1]*inspects[-2])
-
